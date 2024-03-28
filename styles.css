@@ -1,0 +1,119 @@
+:root {
+    /* Colors */
+    --main-bg-color: #E4DFD2;
+    --primary-color: #3A393D;
+    --secondary-color: #4E4C52;
+
+    /* Font Sizes */
+    --heading-one: 2.986rem;
+    --heading-two: 2.488rem;
+    --heading-three: 2.074rem;
+    --heading-four: 1.728rem;
+    
+}
+
+html {
+    background-color: var(--main-bg-color);
+}
+
+body {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-color);
+    width: 1640px;
+    padding: 40px;
+    display: flex;
+}
+
+/* NAVBAR SECTION */
+
+#navbar {
+    width: 398px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 60px;
+    margin-top: 15px;
+}
+
+#navbar header {
+    font-size: var(--heading-four);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#navbar ul li {
+    background-color: var(--primary-color);
+    margin-bottom: 10px;
+    width: 284px;
+    height: 64px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    color: #C95A35;
+}
+
+/* MAIN DOCUMENT */
+
+#main-doc {
+    width: 950px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-doc h1 {
+    font-size: var(--heading-one);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#main-doc h3 {
+    font-size: var(--heading-three);
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+#main-doc section header {
+    font-size: var(--heading-two);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+#Quick_Start p {
+    margin-left: 20px;
+    width: 895px;
+}
+
+ol li {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+pre {
+    background-color: var(--secondary-color);
+    width: 895px;
+    margin-left: 20px;
+    border-radius: 10px;
+    color: white;
+    line-height: 1.5;
+    overflow: auto;
+    margin-bottom: 20px;
+}
