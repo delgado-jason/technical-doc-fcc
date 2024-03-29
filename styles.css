@@ -3,6 +3,7 @@
     --main-bg-color: #E4DFD2;
     --primary-color: #3A393D;
     --secondary-color: #4E4C52;
+    --accent-color: #C95A35;
 
     /* Font Sizes */
     --heading-one: 2.986rem;
@@ -24,6 +25,15 @@ body {
     width: 1640px;
     padding: 40px;
     display: flex;
+}
+
+ul,
+ol {
+    line-height: 1.5;
+}
+
+span {
+    color: var(--accent-color);
 }
 
 /* NAVBAR SECTION */
@@ -95,6 +105,12 @@ body {
 
 p {
     margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+section#Quick_Start {
+    margin-bottom: 40px;
 }
 
 #Quick_Start p {
@@ -116,4 +132,122 @@ pre {
     line-height: 1.5;
     overflow: auto;
     margin-bottom: 20px;
+}
+
+/* CDN LINK SECTION */
+
+section#CDN_Links {
+    margin-bottom: 40px;
+}
+
+/* Table */ 
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 3px solid var(--secondary-color);
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+thead {
+    padding: 20px 50px 20px;
+}
+
+thead th:nth-child(1) {
+    width: 20%;
+}
+
+thead th:nth-child(2) {
+    width: 80%;
+}
+
+tbody th {
+    padding: 15px;
+}
+
+/* NEXT STEPS SECTION */
+
+section#Next_Steps ul {
+    list-style: disc;
+    list-style-position: inside;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+section#Next_Steps li {
+    margin-bottom: 10px;
+}
+
+section#Next_Steps {
+    margin-bottom: 40px;
+}
+
+/* JS COMPONENTS SECTION */
+
+section#JS_Components ul {
+    list-style: disc;
+    list-style-position: inside;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+section#JS_Components  li {
+    margin-bottom: 10px;
+}
+
+section#JS_Components  {
+    margin-bottom: 40px;
+}
+
+/* IMPORTANT GLOBALS SECTION */
+section#Important_Globals {
+    margin-bottom: 40px;
+}
+
+/* HTML5 DOCTYPE SECTION */
+section#HTML5_Doctype {
+    margin-bottom: 40px;
+}
+
+/* VIEWPORT META SECTION */
+section#Viewport_Meta {
+    margin-bottom: 40px;
+}
+
+/* BOX SIZING SECTION */
+section#Box_Sizing {
+    margin-bottom: 40px;
+}
+
+/* REBOOT SECTION */
+section#Reboot {
+    margin-bottom: 40px;
+}
+
+/* COMMUNITY SECTION */
+section#Community {
+    margin-bottom: 40px;
+}
+
+section#Community ul {
+    list-style: disc;
+    list-style-position: inside;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+section#Community li {
+    margin-bottom: 10px;
+}
+
+/* REFERENCES SECTION */
+section#References {
+    margin-bottom: 40px;
+}
+
+
+/* FOR TABLETS */
+@media (max-width: 768px) {
+    
 }
